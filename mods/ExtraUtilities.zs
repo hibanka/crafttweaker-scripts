@@ -10,7 +10,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<ExtraUtilities:divisionSigil>.withTag({
         [null, null, null, null, null, null, null, null, null],
         [null, null, null, null, null, null, null, null, null]]);
 
-// Исправление дублирования рецептов занавес ExtraUtlities и занавес с мода MalisisDoors
+// Исправление дублирования рецептов занавес ExtraUtlities и занавес из мода MalisisDoors
 	recipes.remove(<ExtraUtilities:curtains>);
 	recipes.addShapeless(<ExtraUtilities:curtains>,
 		[<malisisdoors:item.curtain_black>]);
