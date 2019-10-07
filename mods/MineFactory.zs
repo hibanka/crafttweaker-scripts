@@ -1,4 +1,4 @@
-// Исправление дублирования рецептов блока розовой слизи MineFactory и блока слизи из мода MalisisDoors
+// Исправление дублирования рецептов блока розовой слизи MineFactory и блока слизи из мода Et Futurum
 	recipes.remove(<etfuturum:slime>);
 	recipes.addShaped(<etfuturum:slime>,
 		[[<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>],
