@@ -9,24 +9,24 @@
     var Panel3 = <AdvancedSolarPanel:BlockAdvSolarPanel:3>;
 
 	# Улучшенная солнечная панель
-	Panel0.addTooltip(GenDay + format.green("8 EU/t"));
-	Panel0.addTooltip(GenNight + format.green("1 EU/t"));
-	Panel0.addTooltip(Energy + format.green("32k EU"));
+		Panel0.addTooltip(GenDay + format.green("8 EU/t"));
+		Panel0.addTooltip(GenNight + format.green("1 EU/t"));
+		Panel0.addTooltip(Energy + format.green("32k EU"));
 
 	# Гибридная солнечная панель
-	Panel1.addTooltip(GenDay + format.green("64 EU/t"));
-	Panel1.addTooltip(GenNight + format.green("8 EU/t"));
-	Panel1.addTooltip(Energy + format.green("100k EU"));
+		Panel1.addTooltip(GenDay + format.green("64 EU/t"));
+		Panel1.addTooltip(GenNight + format.green("8 EU/t"));
+		Panel1.addTooltip(Energy + format.green("100k EU"));
 
 	# Ультимейт солнечная панель
-	Panel2.addTooltip(GenDay + format.green("512 EU/t"));
-	Panel2.addTooltip(GenNight + format.green("64 EU/t"));
-	Panel2.addTooltip(Energy + format.green("1M EU"));
+		Panel2.addTooltip(GenDay + format.green("512 EU/t"));
+		Panel2.addTooltip(GenNight + format.green("64 EU/t"));
+		Panel2.addTooltip(Energy + format.green("1M EU"));
 
 	# Квантовая солнечная панель
-	Panel3.addTooltip(GenDay + format.green("4096 EU/t"));
-	Panel3.addTooltip(GenNight + format.green("2048 EU/t"));
-	Panel3.addTooltip(Energy + format.green("10M EU"));
+		Panel3.addTooltip(GenDay + format.green("4096 EU/t"));
+		Panel3.addTooltip(GenNight + format.green("2048 EU/t"));
+		Panel3.addTooltip(Energy + format.green("10M EU"));
 
 // Крафт ультимейт солнечного шлема
 	recipes.remove(<AdvancedSolarPanel:ultimate_solar_helmet>);
