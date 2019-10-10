@@ -20,24 +20,24 @@
         [<ore:stickWood>, null, <ore:stickWood>]]);
 
 // Крафт красному и лазуритовому конденсаторам. Также добавлено их восстановление через редстоун и лазурит блоки соответственно
-// P.S. На самом деле, я бы рекомендовал исправить крафты в самом моде, и рассчитываю на то, что скрипт послужит вам временным решением
+// На самом деле, я бы рекомендовал исправить крафты в самом моде, и рассчитываю на то, что скрипт послужит вам временным решением
 	# Красный конденсатор
-	    recipes.remove(<IC2:reactorCondensator:1>);
-	    recipes.addShaped(<IC2:reactorCondensator:1>,
-	        [[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>],
-	        [<minecraft:redstone>, <IC2:reactorVentDiamond:1>, <minecraft:redstone>],
-	        [<minecraft:redstone>, <IC2:reactorHeatSwitchDiamond:1>, <minecraft:redstone>]]);
-	    recipes.addShapeless(<IC2:reactorCondensator:1>,
-	        [<IC2:reactorCondensator:*>, <minecraft:redstone_block>]);
+    recipes.remove(<IC2:reactorCondensator:1>);
+    recipes.addShaped(<IC2:reactorCondensator:1>,
+        [[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>],
+        [<minecraft:redstone>, <IC2:reactorVentDiamond:1>, <minecraft:redstone>],
+        [<minecraft:redstone>, <IC2:reactorHeatSwitchDiamond:1>, <minecraft:redstone>]]);
+    recipes.addShapeless(<IC2:reactorCondensator:1>,
+        [<IC2:reactorCondensator:*>, <minecraft:redstone_block>]);
 
 	# Лазуритовый конденсатор
-	    recipes.remove(<IC2:reactorCondensatorLap:1>);
-	    recipes.addShaped(<IC2:reactorCondensatorLap:1>,
-	        [[<minecraft:redstone>, <IC2:reactorVentCore:1>, <minecraft:redstone>],
-	        [<IC2:reactorCondensator:1>, <minecraft:lapis_block>, <IC2:reactorCondensator:1>],
-	        [<minecraft:redstone>, <IC2:reactorHeatSwitchCore:1>, <minecraft:redstone>]]);
-	    recipes.addShapeless(<IC2:reactorCondensatorLap:1>,
-	        [<IC2:reactorCondensatorLap:*>, <minecraft:lapis_block>]);
+    recipes.remove(<IC2:reactorCondensatorLap:1>);
+    recipes.addShaped(<IC2:reactorCondensatorLap:1>,
+        [[<minecraft:redstone>, <IC2:reactorVentCore:1>, <minecraft:redstone>],
+        [<IC2:reactorCondensator:1>, <minecraft:lapis_block>, <IC2:reactorCondensator:1>],
+        [<minecraft:redstone>, <IC2:reactorHeatSwitchCore:1>, <minecraft:redstone>]]);
+    recipes.addShapeless(<IC2:reactorCondensatorLap:1>,
+        [<IC2:reactorCondensatorLap:*>, <minecraft:lapis_block>]);
 
 // Крафт кристалла памяти в печи может не отображаться в NEI
 // Простенькое описание к предмету уберет у игроков вопросы по созданию этого предмета
