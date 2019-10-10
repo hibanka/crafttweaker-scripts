@@ -1,9 +1,11 @@
-// Вспомогательные описания к панелям о их параметрах
+// Вспомогательные описания к панелям об их параметрах
 // Если изменяли параметры энергии в конфиге мода, измените это и здесь
     var GenDay = "Генерация днём: ";
     var GenNight = "Генерация ночью: ";
     var MaxOutput = "Макс. выход: ";
+    // var MaxOutput = "Максимальный выход: ";
     var Energy = "Хранилище: ";
+    // var Energy = "Хранилище энергии: ";
 
     var Panel0 = <AdvancedSolarPanel:BlockAdvSolarPanel>;
     var Panel1 = <AdvancedSolarPanel:BlockAdvSolarPanel:1>;
