@@ -14,3 +14,12 @@
 	recipes.remove(<ExtraUtilities:curtains>);
 	recipes.addShapeless(<ExtraUtilities:curtains>,
 		[<malisisdoors:item.curtain_black>]);
+
+// Описания к карьеру Края/термической помпе Края, если они работают только в регионах (фикс gamerforea)
+	# Карьер Края
+	<ExtraUtilities:enderQuarry>.addTooltip("Работает только в приватном регионе.");
+	# Термическая помпа Края
+	<ExtraUtilities:enderThermicPump>.addTooltip("Работает только в приватном регионе.");
+
+// Описание к QED, если отключено получение х3 слитков
+	<ExtraUtilities:endConstructor>.addTooltip("Отключено получение х3 слитков с руды.");
