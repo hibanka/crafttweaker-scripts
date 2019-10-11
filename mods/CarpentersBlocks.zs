@@ -1,4 +1,4 @@
-// Плитку плотника теперь можно создать с помощью обычной обнажённой глины, а не только раскрашенной
+// ДОПОЛНИТЕЛЬНЫЙ РЕЦЕПТ: плитка плотника (крафт из обычной обнажённой глины, а не только раскрашенной)
 	recipes.remove(<CarpentersBlocks:itemCarpentersTile>);
 	recipes.addShaped(<CarpentersBlocks:itemCarpentersTile> *12,
 		[[<minecraft:stained_hardened_clay:*>, <minecraft:stained_hardened_clay:*>, <minecraft:stained_hardened_clay:*>],

@@ -1,10 +1,10 @@
-// Крафт замшелого храмового блока
+// ДОПОЛНИТЕЛЬНЫЙ РЕЦЕПТ: замшелый храмовый блок
     recipes.addShaped(<chisel:mossy_templeblock> *8,
         [[<chisel:templeblock>, <chisel:templeblock>, <chisel:templeblock>],
         [<chisel:templeblock>, <minecraft:emerald>, <chisel:templeblock>],
         [<chisel:templeblock>, <chisel:templeblock>, <chisel:templeblock>]]);
 
-// Крафт блока облока
+// ДОПОЛНИТЕЛЬНЫЙ РЕЦЕПТ: облако
 	recipes.addShaped(<chisel:cloud> *8,
 		[[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
 		[<ore:blockGlass>, <ore:gemQuartz>, <ore:blockGlass>],

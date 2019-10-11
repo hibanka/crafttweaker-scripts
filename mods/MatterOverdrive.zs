@@ -1,4 +1,4 @@
-// Крафт крашенных тритановых плит
+// ДОПОЛНИТЕЛЬНЫЙ РЕЦЕПТ: крашенные тритановые плиты
 	# Импортирование НЕОБХОДИМО ПОМЕСТИТЬ в самый верх скрипта
 	import minetweaker.item.IItemStack; # Импортирование НЕОБХОДИМО ПОМЕСТИТЬ в самый верх скрипта
 	import minetweaker.item.IIngredient; # Импортирование НЕОБХОДИМО ПОМЕСТИТЬ в самый верх скрипта
@@ -54,7 +54,7 @@
 		[<mo:decorative.tritanium_plate>, <mo:decorative.tritanium_plate>, <mo:decorative.tritanium_plate>]]);
 	}
 
-// Крафт повёрнутых материальных блоков
+// ДОПОЛНИТЕЛЬНЫЙ РЕЦЕПТ: повёрнутые материальные блоки
 	recipes.addShapeless(<mo:decorative.matter_tube:1>,
 		[<mo:decorative.matter_tube>]);
 	recipes.addShapeless(<mo:decorative.beams:1>,

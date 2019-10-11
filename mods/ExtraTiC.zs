@@ -1,4 +1,4 @@
-// Крафт красного аурума
+// ДОПОЛНИТЕЛЬНЫЙ РЕЦЕПТ: слиток и блок красного аурума
 	# Слиток красного аурума
 	recipes.remove(<ExtraTiC:funStuffIngot:2>);
 	recipes.addShapeless(<ExtraTiC:funStuffIngot:2>,

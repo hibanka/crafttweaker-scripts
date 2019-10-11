@@ -1,4 +1,4 @@
-// Крафт капсулы с электризированной водой
+// ДОПОЛНИТЕЛЬНЫЙ РЕЦЕПТ: капсула с электризированной водой
 // Зачастую используется, когда электролизер в моде не работает нормально
 	recipes.addShapeless(<IC2:itemCellEmpty:8>,
 	    [<IC2:itemCellEmpty:1>, <IC2:itemBatRE:1>.withTag({charge: 10000.0})]);
@@ -7,13 +7,13 @@
 	<IC2:blockMachine:10>.addTooltip(format.red("Внимание! Электролизёр не работает. Был добавлен"));
 	<IC2:blockMachine:10>.addTooltip(format.red("крафт капсулам с электролизованной водой."));
 
-// Крафт укреплённого камня
+// ДОПОЛНИТЕЛЬНЫЙ РЕЦЕПТ: укреплённый камень
     recipes.addShaped(<IC2:blockAlloy> *6,
         [[<minecraft:stone>, <IC2:itemPartAlloy>, <minecraft:stone>],
         [<minecraft:stone>, <IC2:itemPartAlloy>, <minecraft:stone>],
         [<minecraft:stone>, <IC2:itemPartAlloy>, <minecraft:stone>]]);
 
-// Крафт гидрогенератора
+// ДОПОЛНИТЕЛЬНЫЙ РЕЦЕПТ: гидрогенератор
     recipes.addShaped(<IC2:blockGenerator:2>,
         [[<ore:stickWood>, null, <ore:stickWood>],
         [null, <IC2:blockGenerator>, null],

@@ -1,4 +1,4 @@
-// Крафт ультимейт солнечного шлема
+// ИСПРАВЛЕНИЕ РЕЦЕПТА: ультимейт солнечный шлем
 	recipes.remove(<AdvancedSolarPanel:ultimate_solar_helmet>);
     recipes.addShaped(<AdvancedSolarPanel:ultimate_solar_helmet>,
         [[null, <AdvancedSolarPanel:BlockAdvSolarPanel:2>, null],

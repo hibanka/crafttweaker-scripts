@@ -1,4 +1,4 @@
-// Крафт стабильного сигила через Avaritia верстак
+// ДОПОЛНИТЕЛЬНЫЙ РЕЦЕПТ: стабильный сигил (через Avaritia верстак 9х9)
 	mods.avaritia.ExtremeCrafting.addShaped(<ExtraUtilities:divisionSigil>.withTag({stable: 1 as byte}),
 		[[<minecraft:stone>, <minecraft:hardened_clay>, <minecraft:glass>, <minecraft:coal:1>, <minecraft:gold_ingot>, <minecraft:iron_ingot>, <minecraft:dye:2>, <minecraft:cooked_porkchop>, <minecraft:cooked_fished>],
 		[<minecraft:cooked_beef>, <minecraft:cooked_chicken>, <minecraft:baked_potato>, <minecraft:potion:8257>, <minecraft:potion:8265>, <minecraft:potion:8262>, <minecraft:potion:8269>, <minecraft:potion:8270>, <minecraft:potion:8266>],
@@ -10,7 +10,7 @@
 		[null, null, null, null, null, null, null, null, null],
 		[null, null, null, null, null, null, null, null, null]]);
 
-// Исправление дублирования рецептов занавес ExtraUtlities и занавес из мода MalisisDoors
+// ИСПРАВЛЕНИЕ РЕЦЕПТА: дублирование крафта (занавесы ExtraUtlities и занавесы MalisisDoors)
 	recipes.remove(<ExtraUtilities:curtains>);
 	recipes.addShapeless(<ExtraUtilities:curtains>,
 		[<malisisdoors:item.curtain_black>]);
