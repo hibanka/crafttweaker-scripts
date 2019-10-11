@@ -1,3 +1,12 @@
+// Крафт ультимейт солнечного шлема
+	recipes.remove(<AdvancedSolarPanel:ultimate_solar_helmet>);
+    recipes.addShaped(<AdvancedSolarPanel:ultimate_solar_helmet>,
+        [[null, <AdvancedSolarPanel:BlockAdvSolarPanel:2>, null],
+        [<IC2:itemPartCircuitAdv>, <IC2:itemArmorQuantumHelmet:*>, <IC2:itemPartCircuitAdv>],
+        [<IC2:itemCable:9>, <IC2:blockElectric:5>, <IC2:itemCable:9>]]);
+    recipes.addShapeless(<AdvancedSolarPanel:ultimate_solar_helmet>,
+        [<AdvancedSolarPanel:BlockAdvSolarPanel:2>, <AdvancedSolarPanel:hybrid_solar_helmet:*>]);
+
 // Вспомогательные описания к панелям об их параметрах
 // Если изменяли параметры энергии в конфиге мода, измените это и здесь
     var GenDay = "Генерация днём: ";
@@ -35,12 +44,3 @@
 	Panel3.addTooltip(GenNight + format.green("2048 EU/t"));
 	Panel3.addTooltip(MaxOutput + format.green("8192 EU/t"));
 	Panel3.addTooltip(Energy + format.green("10M EU"));
-
-// Крафт ультимейт солнечного шлема
-	recipes.remove(<AdvancedSolarPanel:ultimate_solar_helmet>);
-    recipes.addShaped(<AdvancedSolarPanel:ultimate_solar_helmet>,
-        [[null, <AdvancedSolarPanel:BlockAdvSolarPanel:2>, null],
-        [<IC2:itemPartCircuitAdv>, <IC2:itemArmorQuantumHelmet:*>, <IC2:itemPartCircuitAdv>],
-        [<IC2:itemCable:9>, <IC2:blockElectric:5>, <IC2:itemCable:9>]]);
-    recipes.addShapeless(<AdvancedSolarPanel:ultimate_solar_helmet>,
-        [<AdvancedSolarPanel:BlockAdvSolarPanel:2>, <AdvancedSolarPanel:hybrid_solar_helmet:*>]);
