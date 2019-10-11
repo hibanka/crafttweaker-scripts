@@ -1,47 +1,47 @@
 // ДОПОЛНИТЕЛЬНЫЙ РЕЦЕПТ: капсула с электризированной водой
 // Зачастую используется, когда электролизер в моде не работает нормально
 	recipes.addShapeless(<IC2:itemCellEmpty:8>,
-	    [<IC2:itemCellEmpty:1>, <IC2:itemBatRE:1>.withTag({charge: 10000.0})]);
+		[<IC2:itemCellEmpty:1>, <IC2:itemBatRE:1>.withTag({charge: 10000.0})]);
 
 	# Дополнительное описание к электролизеру
 	<IC2:blockMachine:10>.addTooltip(format.red("Внимание! Электролизёр не работает. Был добавлен"));
 	<IC2:blockMachine:10>.addTooltip(format.red("крафт капсулам с электролизованной водой."));
 
 // ДОПОЛНИТЕЛЬНЫЙ РЕЦЕПТ: укреплённый камень
-    recipes.addShaped(<IC2:blockAlloy> *6,
-        [[<minecraft:stone>, <IC2:itemPartAlloy>, <minecraft:stone>],
-        [<minecraft:stone>, <IC2:itemPartAlloy>, <minecraft:stone>],
-        [<minecraft:stone>, <IC2:itemPartAlloy>, <minecraft:stone>]]);
+	recipes.addShaped(<IC2:blockAlloy> *6,
+		[[<minecraft:stone>, <IC2:itemPartAlloy>, <minecraft:stone>],
+		[<minecraft:stone>, <IC2:itemPartAlloy>, <minecraft:stone>],
+		[<minecraft:stone>, <IC2:itemPartAlloy>, <minecraft:stone>]]);
 
 // ДОПОЛНИТЕЛЬНЫЙ РЕЦЕПТ: гидрогенератор
-    recipes.addShaped(<IC2:blockGenerator:2>,
-        [[<ore:stickWood>, null, <ore:stickWood>],
-        [null, <IC2:blockGenerator>, null],
-        [<ore:stickWood>, null, <ore:stickWood>]]);
+	recipes.addShaped(<IC2:blockGenerator:2>,
+		[[<ore:stickWood>, null, <ore:stickWood>],
+		[null, <IC2:blockGenerator>, null],
+		[<ore:stickWood>, null, <ore:stickWood>]]);
 
 // Крафт красному и лазуритовому конденсаторам. Также добавлено их восстановление через редстоун и лазурит блоки соответственно
 // На самом деле, я бы рекомендовал исправить крафты в самом моде, и рассчитываю на то, что скрипт послужит вам временным решением
 	# Красный конденсатор
-    recipes.remove(<IC2:reactorCondensator:1>);
-    recipes.addShaped(<IC2:reactorCondensator:1>,
-        [[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>],
-        [<minecraft:redstone>, <IC2:reactorVentDiamond:1>, <minecraft:redstone>],
-        [<minecraft:redstone>, <IC2:reactorHeatSwitchDiamond:1>, <minecraft:redstone>]]);
-    recipes.addShapeless(<IC2:reactorCondensator:1>,
-        [<IC2:reactorCondensator:*>, <minecraft:redstone_block>]);
+	recipes.remove(<IC2:reactorCondensator:1>);
+	recipes.addShaped(<IC2:reactorCondensator:1>,
+		[[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>],
+		[<minecraft:redstone>, <IC2:reactorVentDiamond:1>, <minecraft:redstone>],
+		[<minecraft:redstone>, <IC2:reactorHeatSwitchDiamond:1>, <minecraft:redstone>]]);
+	recipes.addShapeless(<IC2:reactorCondensator:1>,
+		[<IC2:reactorCondensator:*>, <minecraft:redstone_block>]);
 
 	# Лазуритовый конденсатор
-    recipes.remove(<IC2:reactorCondensatorLap:1>);
-    recipes.addShaped(<IC2:reactorCondensatorLap:1>,
-        [[<minecraft:redstone>, <IC2:reactorVentCore:1>, <minecraft:redstone>],
-        [<IC2:reactorCondensator:1>, <minecraft:lapis_block>, <IC2:reactorCondensator:1>],
-        [<minecraft:redstone>, <IC2:reactorHeatSwitchCore:1>, <minecraft:redstone>]]);
-    recipes.addShapeless(<IC2:reactorCondensatorLap:1>,
-        [<IC2:reactorCondensatorLap:*>, <minecraft:lapis_block>]);
+	recipes.remove(<IC2:reactorCondensatorLap:1>);
+	recipes.addShaped(<IC2:reactorCondensatorLap:1>,
+		[[<minecraft:redstone>, <IC2:reactorVentCore:1>, <minecraft:redstone>],
+		[<IC2:reactorCondensator:1>, <minecraft:lapis_block>, <IC2:reactorCondensator:1>],
+		[<minecraft:redstone>, <IC2:reactorHeatSwitchCore:1>, <minecraft:redstone>]]);
+	recipes.addShapeless(<IC2:reactorCondensatorLap:1>,
+		[<IC2:reactorCondensatorLap:*>, <minecraft:lapis_block>]);
 
 // Крафт кристалла памяти в печи может не отображаться в NEI
 // Простенькое описание к предмету уберет у игроков вопросы по созданию этого предмета
-    <IC2:itemcrystalmemory>.addTooltip("Создается из необработанного кристалла памяти в печи.");
+	<IC2:itemcrystalmemory>.addTooltip("Создается из необработанного кристалла памяти в печи.");
 
 // Чёрный список предметов для утилизатора (они не будут превращаться в утиль)
 // По шаблону добавлены предметы из ванили и модов, которые крафтятся чисто из земли/камня/булыжника/гравия

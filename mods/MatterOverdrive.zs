@@ -59,5 +59,5 @@
 		[<mo:decorative.matter_tube>]);
 	recipes.addShapeless(<mo:decorative.beams:1>,
 		[<mo:decorative.beams>]);
-    recipes.addShapeless(<mo:decorative.separator:1>,
+	recipes.addShapeless(<mo:decorative.separator:1>,
 		[<mo:decorative.separator>]);

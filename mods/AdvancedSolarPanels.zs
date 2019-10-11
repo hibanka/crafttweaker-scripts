@@ -1,25 +1,25 @@
 // ИСПРАВЛЕНИЕ РЕЦЕПТА: ультимейт солнечный шлем
 	recipes.remove(<AdvancedSolarPanel:ultimate_solar_helmet>);
-    recipes.addShaped(<AdvancedSolarPanel:ultimate_solar_helmet>,
-        [[null, <AdvancedSolarPanel:BlockAdvSolarPanel:2>, null],
-        [<IC2:itemPartCircuitAdv>, <IC2:itemArmorQuantumHelmet:*>, <IC2:itemPartCircuitAdv>],
-        [<IC2:itemCable:9>, <IC2:blockElectric:5>, <IC2:itemCable:9>]]);
-    recipes.addShapeless(<AdvancedSolarPanel:ultimate_solar_helmet>,
-        [<AdvancedSolarPanel:BlockAdvSolarPanel:2>, <AdvancedSolarPanel:hybrid_solar_helmet:*>]);
+	recipes.addShaped(<AdvancedSolarPanel:ultimate_solar_helmet>,
+		[[null, <AdvancedSolarPanel:BlockAdvSolarPanel:2>, null],
+		[<IC2:itemPartCircuitAdv>, <IC2:itemArmorQuantumHelmet:*>, <IC2:itemPartCircuitAdv>],
+		[<IC2:itemCable:9>, <IC2:blockElectric:5>, <IC2:itemCable:9>]]);
+	recipes.addShapeless(<AdvancedSolarPanel:ultimate_solar_helmet>,
+		[<AdvancedSolarPanel:BlockAdvSolarPanel:2>, <AdvancedSolarPanel:hybrid_solar_helmet:*>]);
 
 // Вспомогательные описания к панелям об их параметрах
 // Если изменяли параметры энергии в конфиге мода, измените это и здесь
-    var GenDay = "Генерация днём: ";
-    var GenNight = "Генерация ночью: ";
-    var MaxOutput = "Макс. выход: ";
-    // var MaxOutput = "Максимальный выход: ";
-    var Energy = "Хранилище: ";
-    // var Energy = "Хранилище энергии: ";
+	var GenDay = "Генерация днём: ";
+	var GenNight = "Генерация ночью: ";
+	var MaxOutput = "Макс. выход: ";
+	// var MaxOutput = "Максимальный выход: ";
+	var Energy = "Хранилище: ";
+	// var Energy = "Хранилище энергии: ";
 
-    var Panel0 = <AdvancedSolarPanel:BlockAdvSolarPanel>;
-    var Panel1 = <AdvancedSolarPanel:BlockAdvSolarPanel:1>;
-    var Panel2 = <AdvancedSolarPanel:BlockAdvSolarPanel:2>;
-    var Panel3 = <AdvancedSolarPanel:BlockAdvSolarPanel:3>;
+	var Panel0 = <AdvancedSolarPanel:BlockAdvSolarPanel>;
+	var Panel1 = <AdvancedSolarPanel:BlockAdvSolarPanel:1>;
+	var Panel2 = <AdvancedSolarPanel:BlockAdvSolarPanel:2>;
+	var Panel3 = <AdvancedSolarPanel:BlockAdvSolarPanel:3>;
 
 	# Улучшенная солнечная панель
 	Panel0.addTooltip(GenDay + format.green("8 EU/t"));
