@@ -1,9 +1,6 @@
 // ДОПОЛНИТЕЛЬНЫЙ РЕЦЕПТ: крашеные тритановые плиты
 	# Импортирование НЕОБХОДИМО ПОМЕСТИТЬ в самый верх скрипта
 	import minetweaker.item.IItemStack; # Импортирование НЕОБХОДИМО ПОМЕСТИТЬ в самый верх скрипта
-	import minetweaker.item.IIngredient; # Импортирование НЕОБХОДИМО ПОМЕСТИТЬ в самый верх скрипта
-	import minetweaker.item.IItemDefinition; # Импортирование НЕОБХОДИМО ПОМЕСТИТЬ в самый верх скрипта
-	import minetweaker.mods.ILoadedMods; # Импортирование НЕОБХОДИМО ПОМЕСТИТЬ в самый верх скрипта
 
 	var DecoBlock =
 		[
