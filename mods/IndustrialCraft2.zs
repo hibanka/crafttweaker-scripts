@@ -48,9 +48,6 @@
 // Удалите вещи модов, которых у вас нет, иначе будет выдавать ошибку
 	# Импортирование НЕОБХОДИМО ПОМЕСТИТЬ в самый верх скрипта
 	import minetweaker.item.IItemStack; # Импортирование НЕОБХОДИМО ПОМЕСТИТЬ в самый верх скрипта
-	import minetweaker.item.IIngredient; # Импортирование НЕОБХОДИМО ПОМЕСТИТЬ в самый верх скрипта
-	import minetweaker.item.IItemDefinition; # Импортирование НЕОБХОДИМО ПОМЕСТИТЬ в самый верх скрипта
-	import minetweaker.mods.ILoadedMods; # Импортирование НЕОБХОДИМО ПОМЕСТИТЬ в самый верх скрипта
 
 	var RecyclerBlacklistItems =
 		[
