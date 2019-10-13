@@ -5,24 +5,24 @@
 	import mods.chisel.Groups; # Импортирование НЕОБХОДИМО ПОМЕСТИТЬ в самый верх скрипта
 	import minetweaker.item.IItemStack; # Импортирование НЕОБХОДИМО ПОМЕСТИТЬ в самый верх скрипта
 
-    var StoneTile = <Ztones:stoneTile>;
-    var Aurora = <Ztones:auroraBlock>;
+	var StoneTile = <Ztones:stoneTile>;
+	var Aurora = <Ztones:auroraBlock>;
 
-    # квартирные лампы (все виды)
-    recipes.remove(<Ztones:lampt>);
-        <Ztones:lampt>.addTooltip("Серая лампа");
-    recipes.remove(<Ztones:lampb>);
-        <Ztones:lampb>.addTooltip("Черная лампа");
-    recipes.remove(<Ztones:lampf>);
-        <Ztones:lampf>.addTooltip("Белая лампа");
-    recipes.addShaped(<Ztones:lampf> *8,
-        [[<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>],
-        [<ore:blockGlass>, <minecraft:glowstone_dust>, <ore:blockGlass>],
-        [<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>]]);
-    Groups.addGroup("flat_lamp");
-    Groups.addVariation("flat_lamp", <Ztones:lampf>);
-    Groups.addVariation("flat_lamp", <Ztones:lampt>);
-    Groups.addVariation("flat_lamp", <Ztones:lampb>);
+	# квартирные лампы (все виды)
+	recipes.remove(<Ztones:lampt>);
+		<Ztones:lampt>.addTooltip("Серая лампа");
+	recipes.remove(<Ztones:lampb>);
+		<Ztones:lampb>.addTooltip("Черная лампа");
+	recipes.remove(<Ztones:lampf>);
+		<Ztones:lampf>.addTooltip("Белая лампа");
+	recipes.addShaped(<Ztones:lampf> *8,
+		[[<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>],
+		[<ore:blockGlass>, <minecraft:glowstone_dust>, <ore:blockGlass>],
+		[<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>]]);
+	Groups.addGroup("flat_lamp");
+	Groups.addVariation("flat_lamp", <Ztones:lampf>);
+	Groups.addVariation("flat_lamp", <Ztones:lampt>);
+	Groups.addVariation("flat_lamp", <Ztones:lampb>);
 
 	# agon
 		Groups.addGroup("agon"); 
