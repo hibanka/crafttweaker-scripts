@@ -58,3 +58,9 @@
 		[<mo:decorative.beams>]);
 	recipes.addShapeless(<mo:decorative.separator:1>,
 		[<mo:decorative.separator>]);
+
+// ДОПОЛНИТЕЛЬНЫЙ РЕЦЕПТ: аварийный паёк
+    recipes.addShaped(<mo:emergency_ration> *32,
+        [[null, <mo:tritanium_plate>, null],
+        [<mo:tritanium_ingot>, <minecraft:golden_apple>, <mo:tritanium_ingot>],
+        [null, <mo:tritanium_plate>, null]]);
