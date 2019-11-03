@@ -8,7 +8,7 @@
 	var StoneTile = <Ztones:stoneTile>;
 	var Aurora = <Ztones:auroraBlock>;
 
-	# квартирные лампы (все виды)
+	# плоские лампы (все виды)
 	recipes.remove(<Ztones:lampt>);
 		<Ztones:lampt>.addTooltip("Серая лампа");
 	recipes.remove(<Ztones:lampb>);
