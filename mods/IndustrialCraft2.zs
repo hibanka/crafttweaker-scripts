@@ -99,6 +99,8 @@
 		<TConstruct:toolRod:1>,
 		<IC2:itemDust:9>,
 		<IC2:itemMugEmpty>,
+		<BuildCraft: Transport:item.buildcraftPipe.pipeitemscobblestone>,
+		<BuildCraft: Transport:item.buildcraftPipe.pipeitemsstone>,
 		<ProjRed|Core:projectred.core.part>,
 		<ForgeMicroblock:stoneRod>,
 		<chisel:dirt:*>,
