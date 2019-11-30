@@ -19,7 +19,7 @@
 
 [Документация 1.7.10](http://minetweaker3.powerofbytes.com/wiki/Main_Page) | [Документация 1.12.2](https://docs.blamejared.com/1.12/en/)
 
-[Мой ВКонтакте](https://vk.com/fireman9) | [Мой Telegram](https://t.me/FireManDK) | Мой Discord: **FireMan#8089**
+[Мой ВКонтакте](https://vk.com/hibanka) | [Мой Telegram](https://t.me/Hibanka) | Мой Discord: **FireMan#8089**
 ***
 ## Заказать написание скрипта
 Если у вас нет времени на создание/допиливание скриптов, или вы просто не умеете этим заниматься, можете заказать написание скриптов у меня. Всё зависит от того, что вам нужно. Ссылки на мои страницы есть выше.
