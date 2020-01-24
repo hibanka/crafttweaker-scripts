@@ -15,6 +15,7 @@
 
 Все аспекты можно изменять (см. рецепты).
 Весь раздел разблокирован. Исследования я не делал, если необходимо, обратитесь к вики. Не забудьте в таком случае уставноить параметр unlock на false (ниже будет).
+Кроме того, исследования плохо работают с mt reload и часто нужно будет полностью перезапустить Minecraft, чтобы применились изменения.
 */
 
 # КОНФИГУРАЦИЯ: название вкладки в таумономиконе
@@ -335,14 +336,14 @@ mods.thaumcraft.Infusion.addRecipe("ASPECTS", <DraconicEvolution:wyvernBoots:*>,
   "tutamen 128, potentia 128, metallum 128, machina 128, motus 64, vitreus 64", <DraconicEvolution:draconicBoots>.withTag({Energy: 0}), instability);
 
 mods.thaumcraft.Research.addResearch("draconicBoots", tabName, null, 3, 3, 0, <DraconicEvolution:draconicBoots>);
-  game.setLocalization("en_US", "tc.research_name.draconicBoots", "Draconic Leggins");
-  game.setLocalization("en_US", "tc.research_text.draconicBoots", "Draconic Leggins");
-  game.setLocalization("ru_RU", "tc.research_name.draconicBoots", "Поножи Дракона");
-  game.setLocalization("ru_RU", "tc.research_text.draconicBoots", "Поножи Дракона");
+  game.setLocalization("en_US", "tc.research_name.draconicBoots", "Draconic Boots");
+  game.setLocalization("en_US", "tc.research_text.draconicBoots", "Draconic Boots");
+  game.setLocalization("ru_RU", "tc.research_name.draconicBoots", "Ботинки Дракона");
+  game.setLocalization("ru_RU", "tc.research_text.draconicBoots", "Ботинки Дракона");
 
 mods.thaumcraft.Research.addPage("draconicBoots", "derp.research_page.draconicBoots");
-  game.setLocalization("en_US", "derp.research_page.draconicBoots", "Draconic Leggins");
-  game.setLocalization("ru_RU", "derp.research_page.draconicBoots", "Поножи Дракона");
+  game.setLocalization("en_US", "derp.research_page.draconicBoots", "Draconic Boots");
+  game.setLocalization("ru_RU", "derp.research_page.draconicBoots", "Ботинки Дракона");
 
 mods.thaumcraft.Research.addInfusionPage("draconicBoots", <DraconicEvolution:draconicBoots>.withTag({Energy: 0}));
 mods.thaumcraft.Research.setAutoUnlock("draconicBoots", unlock);
