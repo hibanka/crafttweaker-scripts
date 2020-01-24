@@ -55,7 +55,7 @@ mods.thaumcraft.Arcane.addShaped("ASPECTS",
   [<DraconicEvolution:draconiumIngot>, <minecraft:diamond_helmet>, <DraconicEvolution:draconiumIngot>],
   [<DraconicEvolution:draconiumIngot>, <DraconicEvolution:draconiumEnergyCore>, <DraconicEvolution:draconiumIngot>]]);
 
-mods.thaumcraft.Research.addResearch("wyvernHelm", tabName, null, 0, 0, 0, <DraconicEvolution:wyvernHelm>);
+mods.thaumcraft.Research.addResearch("wyvernHelm", tabName, "", 0, 0, 0, <DraconicEvolution:wyvernHelm>);
   game.setLocalization("en_US", "tc.research_name.wyvernHelm", "Wyvern Helm");
   game.setLocalization("en_US", "tc.research_text.wyvernHelm", "Wyvern Helm");
   game.setLocalization("ru_RU", "tc.research_name.wyvernHelm", "Шлем Виверны");
@@ -79,7 +79,7 @@ mods.thaumcraft.Arcane.addShaped("ASPECTS",
   [<DraconicEvolution:draconiumIngot>, <minecraft:diamond_chestplate>, <DraconicEvolution:draconiumIngot>],
   [<DraconicEvolution:draconiumIngot>, <DraconicEvolution:draconiumEnergyCore>, <DraconicEvolution:draconiumIngot>]]);
 
-mods.thaumcraft.Research.addResearch("wyvernChest", tabName, null, 1, 0, 0, <DraconicEvolution:wyvernChest>);
+mods.thaumcraft.Research.addResearch("wyvernChest", tabName, "", 1, 0, 0, <DraconicEvolution:wyvernChest>);
   game.setLocalization("en_US", "tc.research_name.wyvernChest", "Wyvern Chestplate");
   game.setLocalization("en_US", "tc.research_text.wyvernChest", "Wyvern Chestplate");
   game.setLocalization("ru_RU", "tc.research_name.wyvernChest", "Нагрудник Виверны");
@@ -103,7 +103,7 @@ mods.thaumcraft.Arcane.addShaped("ASPECTS",
   [<DraconicEvolution:draconiumIngot>, <minecraft:diamond_leggings>, <DraconicEvolution:draconiumIngot>],
   [<DraconicEvolution:draconiumIngot>, <DraconicEvolution:draconiumEnergyCore>, <DraconicEvolution:draconiumIngot>]]);
 
-mods.thaumcraft.Research.addResearch("wyvernLeggs", tabName, null, 2, 0, 0, <DraconicEvolution:wyvernLeggs>);
+mods.thaumcraft.Research.addResearch("wyvernLeggs", tabName, "", 2, 0, 0, <DraconicEvolution:wyvernLeggs>);
   game.setLocalization("en_US", "tc.research_name.wyvernLeggs", "Wyvern Leggins");
   game.setLocalization("en_US", "tc.research_text.wyvernLeggs", "Wyvern Leggins");
   game.setLocalization("ru_RU", "tc.research_name.wyvernLeggs", "Поножи Виверны");
@@ -127,7 +127,7 @@ mods.thaumcraft.Arcane.addShaped("ASPECTS",
   [<DraconicEvolution:draconiumIngot>, <minecraft:diamond_boots>, <DraconicEvolution:draconiumIngot>],
   [<DraconicEvolution:draconiumIngot>, <DraconicEvolution:draconiumEnergyCore>, <DraconicEvolution:draconiumIngot>]]);
 
-mods.thaumcraft.Research.addResearch("wyvernBoots", tabName, null, 3, 0, 0, <DraconicEvolution:wyvernBoots>);
+mods.thaumcraft.Research.addResearch("wyvernBoots", tabName, "", 3, 0, 0, <DraconicEvolution:wyvernBoots>);
   game.setLocalization("en_US", "tc.research_name.wyvernBoots", "Wyvern Boots");
   game.setLocalization("en_US", "tc.research_text.wyvernBoots", "Wyvern Boots");
   game.setLocalization("ru_RU", "tc.research_name.wyvernBoots", "Ботинки Виверны");
@@ -151,7 +151,7 @@ mods.thaumcraft.Arcane.addShaped("ASPECTS",
   [<DraconicEvolution:draconiumIngot>, <minecraft:diamond_sword>, <DraconicEvolution:draconiumIngot>],
   [null, <DraconicEvolution:draconiumEnergyCore>, null]]);
 
-mods.thaumcraft.Research.addResearch("wyvernSword", tabName, null, 0, 1, 0, <DraconicEvolution:wyvernSword>);
+mods.thaumcraft.Research.addResearch("wyvernSword", tabName, "", 0, 1, 0, <DraconicEvolution:wyvernSword>);
   game.setLocalization("en_US", "tc.research_name.wyvernSword", "Sword of the Wyvern");
   game.setLocalization("en_US", "tc.research_text.wyvernSword", "Sword of the Wyvern");
   game.setLocalization("ru_RU", "tc.research_name.wyvernSword", "Меч Виверны");
@@ -175,7 +175,7 @@ mods.thaumcraft.Arcane.addShaped("ASPECTS",
   [<DraconicEvolution:draconiumIngot>, <minecraft:bow>, <DraconicEvolution:draconiumIngot>],
   [null, <DraconicEvolution:draconiumEnergyCore>, null]]);
 
-mods.thaumcraft.Research.addResearch("wyvernBow", tabName, null, 1, 1, 0, <DraconicEvolution:wyvernBow>);
+mods.thaumcraft.Research.addResearch("wyvernBow", tabName, "", 1, 1, 0, <DraconicEvolution:wyvernBow>);
   game.setLocalization("en_US", "tc.research_name.wyvernBow", "Bow of the Wyvern");
   game.setLocalization("en_US", "tc.research_text.wyvernBow", "Bow of the Wyvern");
   game.setLocalization("ru_RU", "tc.research_name.wyvernBow", "Лук Виверны");
@@ -199,7 +199,7 @@ mods.thaumcraft.Arcane.addShaped("ASPECTS",
   [<DraconicEvolution:draconiumIngot>, <minecraft:diamond_pickaxe>, <DraconicEvolution:draconiumIngot>],
   [null, <DraconicEvolution:draconiumEnergyCore>, null]]);
 
-mods.thaumcraft.Research.addResearch("wyvernPickaxe", tabName, null, 2, 1, 0, <DraconicEvolution:wyvernPickaxe>);
+mods.thaumcraft.Research.addResearch("wyvernPickaxe", tabName, "", 2, 1, 0, <DraconicEvolution:wyvernPickaxe>);
   game.setLocalization("en_US", "tc.research_name.wyvernPickaxe", "Pickaxe of the Wyvern");
   game.setLocalization("en_US", "tc.research_text.wyvernPickaxe", "Pickaxe of the Wyvern");
   game.setLocalization("ru_RU", "tc.research_name.wyvernPickaxe", "Кирка Виверны");
@@ -223,7 +223,7 @@ mods.thaumcraft.Arcane.addShaped("ASPECTS",
   [<DraconicEvolution:draconiumIngot>, <minecraft:diamond_shovel>, <DraconicEvolution:draconiumIngot>],
   [null, <DraconicEvolution:draconiumEnergyCore>, null]]);
 
-mods.thaumcraft.Research.addResearch("wyvernShovel", tabName, null, 3, 1, 0, <DraconicEvolution:wyvernShovel>);
+mods.thaumcraft.Research.addResearch("wyvernShovel", tabName, "", 3, 1, 0, <DraconicEvolution:wyvernShovel>);
   game.setLocalization("en_US", "tc.research_name.wyvernShovel", "Shovel of the Wyvern");
   game.setLocalization("en_US", "tc.research_text.wyvernShovel", "Shovel of the Wyvern");
   game.setLocalization("ru_RU", "tc.research_name.wyvernShovel", "Лопата Виверны");
@@ -251,7 +251,7 @@ mods.thaumcraft.Infusion.addRecipe("ASPECTS", <DraconicEvolution:wyvernHelm:*>,
   <DraconicEvolution:draconicIngot>, ],
   "tutamen 128, potentia 128, metallum 128, machina 128, motus 64, vitreus 64", <DraconicEvolution:draconicHelm>.withTag({Energy: 0}), instability);
 
-mods.thaumcraft.Research.addResearch("draconicHelm", tabName, null, 0, 3, 0, <DraconicEvolution:draconicHelm>);
+mods.thaumcraft.Research.addResearch("draconicHelm", tabName, "", 0, 3, 0, <DraconicEvolution:draconicHelm>);
   game.setLocalization("en_US", "tc.research_name.draconicHelm", "Draconic Helm");
   game.setLocalization("en_US", "tc.research_text.draconicHelm", "Draconic Helm");
   game.setLocalization("ru_RU", "tc.research_name.draconicHelm", "Шлем Дракона");
@@ -279,7 +279,7 @@ mods.thaumcraft.Infusion.addRecipe("ASPECTS", <DraconicEvolution:wyvernChest:*>,
   <DraconicEvolution:draconicIngot>, ],
   "tutamen 128, potentia 128, metallum 128, machina 128, motus 64, vitreus 64", <DraconicEvolution:draconicChest>.withTag({Energy: 0}), instability);
 
-mods.thaumcraft.Research.addResearch("draconicChest", tabName, null, 1, 3, 0, <DraconicEvolution:draconicChest>);
+mods.thaumcraft.Research.addResearch("draconicChest", tabName, "", 1, 3, 0, <DraconicEvolution:draconicChest>);
   game.setLocalization("en_US", "tc.research_name.draconicChest", "Draconic Chestplate");
   game.setLocalization("en_US", "tc.research_text.draconicChest", "Draconic Chestplate");
   game.setLocalization("ru_RU", "tc.research_name.draconicChest", "Нагрудник Дракона");
@@ -307,7 +307,7 @@ mods.thaumcraft.Infusion.addRecipe("ASPECTS", <DraconicEvolution:wyvernLeggs:*>,
   <DraconicEvolution:draconicIngot>, ],
   "tutamen 128, potentia 128, metallum 128, machina 128, motus 64, vitreus 64", <DraconicEvolution:draconicLeggs>.withTag({Energy: 0}), instability);
 
-mods.thaumcraft.Research.addResearch("draconicLeggs", tabName, null, 2, 3, 0, <DraconicEvolution:draconicLeggs>);
+mods.thaumcraft.Research.addResearch("draconicLeggs", tabName, "", 2, 3, 0, <DraconicEvolution:draconicLeggs>);
   game.setLocalization("en_US", "tc.research_name.draconicLeggs", "Draconic Leggins");
   game.setLocalization("en_US", "tc.research_text.draconicLeggs", "Draconic Leggins");
   game.setLocalization("ru_RU", "tc.research_name.draconicLeggs", "Поножи Дракона");
@@ -335,7 +335,7 @@ mods.thaumcraft.Infusion.addRecipe("ASPECTS", <DraconicEvolution:wyvernBoots:*>,
   <DraconicEvolution:draconicIngot>, ],
   "tutamen 128, potentia 128, metallum 128, machina 128, motus 64, vitreus 64", <DraconicEvolution:draconicBoots>.withTag({Energy: 0}), instability);
 
-mods.thaumcraft.Research.addResearch("draconicBoots", tabName, null, 3, 3, 0, <DraconicEvolution:draconicBoots>);
+mods.thaumcraft.Research.addResearch("draconicBoots", tabName, "", 3, 3, 0, <DraconicEvolution:draconicBoots>);
   game.setLocalization("en_US", "tc.research_name.draconicBoots", "Draconic Boots");
   game.setLocalization("en_US", "tc.research_text.draconicBoots", "Draconic Boots");
   game.setLocalization("ru_RU", "tc.research_name.draconicBoots", "Ботинки Дракона");
@@ -359,7 +359,7 @@ mods.thaumcraft.Infusion.addRecipe("ASPECTS", <DraconicEvolution:wyvernSword:*>,
   <DraconicEvolution:draconiumEnergyCore:1>, ],
   "instrumentum 128, telum 128, mortuus 128", <DraconicEvolution:draconicSword>.withTag({Energy: 0}), instability);
 
-mods.thaumcraft.Research.addResearch("draconicSword", tabName, null, 0, 4, 0, <DraconicEvolution:draconicSword>);
+mods.thaumcraft.Research.addResearch("draconicSword", tabName, "", 0, 4, 0, <DraconicEvolution:draconicSword>);
   game.setLocalization("en_US", "tc.research_name.draconicSword", "Draconic Sword");
   game.setLocalization("en_US", "tc.research_text.draconicSword", "Draconic Sword");
   game.setLocalization("ru_RU", "tc.research_name.draconicSword", "Меч Дракона");
@@ -383,7 +383,7 @@ mods.thaumcraft.Infusion.addRecipe("ASPECTS", <DraconicEvolution:wyvernBow:*>,
   <DraconicEvolution:draconiumEnergyCore:1>, ],
   "instrumentum 128, telum 128, mortuus 128", <DraconicEvolution:draconicBow>.withTag({Energy: 0}), instability);
 
-mods.thaumcraft.Research.addResearch("draconicBow", tabName, null, 1, 4, 0, <DraconicEvolution:draconicBow>);
+mods.thaumcraft.Research.addResearch("draconicBow", tabName, "", 1, 4, 0, <DraconicEvolution:draconicBow>);
   game.setLocalization("en_US", "tc.research_name.draconicBow", "Draconic Bow");
   game.setLocalization("en_US", "tc.research_text.draconicBow", "Draconic Bow");
   game.setLocalization("ru_RU", "tc.research_name.draconicBow", "Лук Дракона");
@@ -407,7 +407,7 @@ mods.thaumcraft.Infusion.addRecipe("ASPECTS", <DraconicEvolution:wyvernPickaxe:*
   <DraconicEvolution:draconiumEnergyCore:1>, ],
   "instrumentum 128, meto 128, fabrico 128, perfodio 128", <DraconicEvolution:draconicPickaxe>.withTag({Energy: 0}), instability);
 
-mods.thaumcraft.Research.addResearch("draconicPickaxe", tabName, null, 2, 4, 0, <DraconicEvolution:draconicPickaxe>);
+mods.thaumcraft.Research.addResearch("draconicPickaxe", tabName, "", 2, 4, 0, <DraconicEvolution:draconicPickaxe>);
   game.setLocalization("en_US", "tc.research_name.draconicPickaxe", "Draconic Pickaxe");
   game.setLocalization("en_US", "tc.research_text.draconicPickaxe", "Draconic Pickaxe");
   game.setLocalization("ru_RU", "tc.research_name.draconicPickaxe", "Кирка Дракона");
@@ -431,7 +431,7 @@ mods.thaumcraft.Infusion.addRecipe("ASPECTS", <DraconicEvolution:wyvernShovel:*>
   <DraconicEvolution:draconiumEnergyCore:1>, ],
   "instrumentum 128, meto 128, fabrico 128, perfodio 128", <DraconicEvolution:draconicShovel>.withTag({Energy: 0}), instability);
 
-mods.thaumcraft.Research.addResearch("draconicShovel", tabName, null, 3, 4, 0, <DraconicEvolution:draconicShovel>);
+mods.thaumcraft.Research.addResearch("draconicShovel", tabName, "", 3, 4, 0, <DraconicEvolution:draconicShovel>);
   game.setLocalization("en_US", "tc.research_name.draconicShovel", "Draconic Shovel");
   game.setLocalization("en_US", "tc.research_text.draconicShovel", "Draconic Shovel");
   game.setLocalization("ru_RU", "tc.research_name.draconicShovel", "Лопата Дракона");
@@ -455,7 +455,7 @@ mods.thaumcraft.Infusion.addRecipe("ASPECTS", <minecraft:diamond_axe>,
   <DraconicEvolution:draconiumEnergyCore:1>, ],
   "instrumentum 128, meto 128, fabrico 128, perfodio 128", <DraconicEvolution:draconicAxe>.withTag({Energy: 0}), instability);
 
-mods.thaumcraft.Research.addResearch("draconicAxe", tabName, null, 4, 4, 0, <DraconicEvolution:draconicAxe>);
+mods.thaumcraft.Research.addResearch("draconicAxe", tabName, "", 4, 4, 0, <DraconicEvolution:draconicAxe>);
   game.setLocalization("en_US", "tc.research_name.draconicAxe", "Draconic Axe");
   game.setLocalization("en_US", "tc.research_text.draconicAxe", "Draconic Axe");
   game.setLocalization("ru_RU", "tc.research_name.draconicAxe", "Топор Дракона");
@@ -479,7 +479,7 @@ mods.thaumcraft.Infusion.addRecipe("ASPECTS", <minecraft:diamond_hoe>,
   <DraconicEvolution:draconiumEnergyCore:1>, ],
   "instrumentum 128, meto 128, fabrico 128, perfodio 128", <DraconicEvolution:draconicHoe>.withTag({Energy: 0}), instability);
 
-mods.thaumcraft.Research.addResearch("draconicHoe", tabName, null, 5, 4, 0, <DraconicEvolution:draconicHoe>);
+mods.thaumcraft.Research.addResearch("draconicHoe", tabName, "", 5, 4, 0, <DraconicEvolution:draconicHoe>);
   game.setLocalization("en_US", "tc.research_name.draconicHoe", "Draconic Hoe");
   game.setLocalization("en_US", "tc.research_text.draconicHoe", "Draconic Hoe");
   game.setLocalization("ru_RU", "tc.research_name.draconicHoe", "Мотыга Дракона");
@@ -507,7 +507,7 @@ mods.thaumcraft.Infusion.addRecipe("ASPECTS", <DraconicEvolution:awakenedCore>,
   <DraconicEvolution:draconicIngot>,],
   "instrumentum 128, meto 128, fabrico 128, telum 128, mortuus 128, perfodio 128", <DraconicEvolution:draconicDistructionStaff>.withTag({Energy: 0}), instabilityStaff);
 
-mods.thaumcraft.Research.addResearch("draconicDistructionStaff", tabName, null, 5, 3, 0, <DraconicEvolution:draconicDistructionStaff>);
+mods.thaumcraft.Research.addResearch("draconicDistructionStaff", tabName, "", 5, 3, 0, <DraconicEvolution:draconicDistructionStaff>);
   game.setLocalization("en_US", "tc.research_name.draconicDistructionStaff", "Draconic Staff of Power");
   game.setLocalization("en_US", "tc.research_text.draconicDistructionStaff", "Draconic Staff of Power");
   game.setLocalization("ru_RU", "tc.research_name.draconicDistructionStaff", "Посох силы");
