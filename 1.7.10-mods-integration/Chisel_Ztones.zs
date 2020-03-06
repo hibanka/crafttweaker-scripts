@@ -8,20 +8,20 @@
   var Aurora = <Ztones:auroraBlock>;
 
   # плоские лампы (все виды)
-		recipes.remove(<Ztones:lampt>);
-			<Ztones:lampt>.addTooltip("Серая лампа");
-		recipes.remove(<Ztones:lampb>);
-			<Ztones:lampb>.addTooltip("Черная лампа");
-		recipes.remove(<Ztones:lampf>);
-			<Ztones:lampf>.addTooltip("Белая лампа");
-		recipes.addShaped(<Ztones:lampf> *8,
-			[[<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>],
-			[<ore:blockGlass>, <minecraft:glowstone_dust>, <ore:blockGlass>],
-			[<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>]]);
-		Groups.addGroup("flat_lamp");
-		Groups.addVariation("flat_lamp", <Ztones:lampf>);
-		Groups.addVariation("flat_lamp", <Ztones:lampt>);
-		Groups.addVariation("flat_lamp", <Ztones:lampb>);
+  recipes.remove(<Ztones:lampt>);
+   <Ztones:lampt>.addTooltip("Серая лампа");
+  recipes.remove(<Ztones:lampb>);
+   <Ztones:lampb>.addTooltip("Черная лампа");
+  recipes.remove(<Ztones:lampf>);
+   <Ztones:lampf>.addTooltip("Белая лампа");
+  recipes.addShaped(<Ztones:lampf> *8,
+   [[<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>],
+   [<ore:blockGlass>, <minecraft:glowstone_dust>, <ore:blockGlass>],
+   [<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>]]);
+  Groups.addGroup("flat_lamp");
+  Groups.addVariation("flat_lamp", <Ztones:lampf>);
+  Groups.addVariation("flat_lamp", <Ztones:lampt>);
+  Groups.addVariation("flat_lamp", <Ztones:lampb>);
 
   # agon
     Groups.addGroup("agon"); 
