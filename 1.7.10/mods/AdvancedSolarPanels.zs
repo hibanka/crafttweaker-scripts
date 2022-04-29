@@ -8,14 +8,12 @@
   [<AdvancedSolarPanel:BlockAdvSolarPanel:2>, <AdvancedSolarPanel:hybrid_solar_helmet:*>]);
 
 # Добавляем вспомогательные описания о параметрах панелей
-# Если вы изменяли эти параметры в конфиге мода, измените это и здесь
+# При изменении параметров в конфиге моде, здесь их также нужно изменить
  # Вариант 1: характеристики видны сразу
   var GenDay = "Генерация днём: ";
   var GenNight = "Генерация ночью: ";
   var MaxOutput = "Макс. выход: ";
-  # var MaxOutput = "Максимальный выход: ";
   var Energy = "Хранилище: ";
-  # var Energy = "Хранилище энергии: ";
 
   var Panel0 = <AdvancedSolarPanel:BlockAdvSolarPanel>;
   var Panel1 = <AdvancedSolarPanel:BlockAdvSolarPanel:1>;
@@ -50,9 +48,7 @@
   var GenDay = "Генерация днём: ";
   var GenNight = "Генерация ночью: ";
   var MaxOutput = "Макс. выход: ";
-  # var MaxOutput = "Максимальный выход: ";
   var Energy = "Хранилище: ";
-  # var Energy = "Хранилище энергии: ";
 
   <AdvancedSolarPanel:BlockAdvSolarPanel:*>.addTooltip("Зажмите " + format.aqua("LShift") + format.gray(" для подробной информации"));
   var Panel0 = <AdvancedSolarPanel:BlockAdvSolarPanel>;

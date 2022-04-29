@@ -1,5 +1,4 @@
 # Добавляем рецепт: маленькое зелёное сердечко и банка с зелёным сердцем
- # В качестве ресурсов используются изумруды, но вы можете заменить их на любые другие предметы
  var resourceForHeart = <minecraft:emerald>;
  var resourceForJar = <minecraft:emerald_block>;
 

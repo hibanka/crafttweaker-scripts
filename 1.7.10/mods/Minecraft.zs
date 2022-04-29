@@ -1,4 +1,4 @@
-# Исправляем "кривой" рецепт кольчуги из огня
+# Исправляем сломанный рецепт кольчуги из огня
  recipes.remove(<minecraft:chainmail_helmet>);
  recipes.remove(<minecraft:chainmail_chestplate>);
  recipes.remove(<minecraft:chainmail_leggings>);
